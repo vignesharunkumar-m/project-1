@@ -1,0 +1,40 @@
+.seller{
+    background-color: rgba(5, 63, 92, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.seller_id{
+    width: 90%;
+    height: 80%;
+    /* padding: 25px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+.seller_id input{
+    width: 400px;
+    margin: 10px 0 20px 0;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.04);
+    padding: 10px;
+    border: none;
+}
+.seller_id button{
+    padding: 10px 165px;
+    background-color: rgba(247, 173, 25, 1);
+    border: none;
+    border-radius: 5px;
+}
+.eye{
+    background-image: url("../../images/Group\ 287.png");
+    /* background-image: url(".../images/Group 287.png"); */
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* <div className='seller' style={{backgroundColor:"#000",display:"flex",justifyContent:"center",alignItems:"center",height:"100vh"}}>
+            <div className='seller_id' style={{width:"60%",padding:"25px",backgroundColor:"#fff"}}> */

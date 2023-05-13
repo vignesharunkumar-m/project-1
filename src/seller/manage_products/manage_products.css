@@ -1,0 +1,65 @@
+.dash_product .manage_table{
+    width: 100%;
+    text-align: center;
+}
+.dash_product .manage_table img{
+    width: 20px;
+    background-color: #FBFBFB;
+    padding: 5px;
+    border-radius: 5px;
+}
+.dash_product .manage_table table{
+    width: 100%;
+    height: 300px;
+    font-size: 13px;
+    /* text-align: center; */
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.dash_product .manage_table table td{
+    padding-right: 10px;
+    text-align: center;
+}
+.dash_product .manage_table table th{
+    padding: 5px 45px 5px 10px;
+    background-color: rgba(5, 63, 92, 1);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+.dash_product .pro_detail{
+    display: flex;
+    margin-top: 20px;
+}
+.dash_product .pro_detail select{
+    background-color: transparent;
+    border: none
+    ;
+}
+.dash_product .pro_detail div:nth-child(-n+3){
+    padding: 10px 40px 10px 10px;
+    margin-right: 20px;
+    background-color: rgba(66, 158, 189, 0.1);
+}
+.dash_product .pro_detail div:nth-child(4){
+    padding: 9px;
+    background-color: rgba(247, 173, 25, 1);
+    border-radius: 8px;
+}
+.dash_product .pro_detail img{
+    width: 20px;
+}
+.dash_product .manage_pro{
+    width: 100%;
+    display: flex;
+}
+.dash_product .manage_pro .line1{
+    width: 20%;
+    height: 3px;
+    background-color: rgba(247, 173, 25, 1);
+}
+.dash_product .manage_pro .line2{
+    width: 70%;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,32 @@
+.add_product{
+    width: 90%;
+    margin:  20px auto;
+}
+.add_product .checkboxs select{
+    padding: 5px 15px;
+    margin-bottom: 10px;
+}
+.upload_file{
+    width: 40%;
+    margin: 10px auto;
+}
+.upload_file .border{
+    text-align: center;
+    line-height: 25px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style:  dashed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#btn{
+    text-align: center ;
+}
+#btn button{
+    background-color: rgba(247, 173, 25, 1);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0 80px 0;
+    color: white;
+}

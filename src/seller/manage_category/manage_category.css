@@ -1,0 +1,89 @@
+.dash_product .category_detail{
+    display: flex;
+    margin-top: 20px;
+}
+.dash_product .category_detail div:nth-child(1){
+    padding: 10px 40px 10px 10px;
+    margin-right: 20px;
+    background-color: rgba(66, 158, 189, 0.1);
+}
+.dash_product .category_detail div:nth-child(2){
+    padding: 9px;
+    background-color: rgba(247, 173, 25, 1);
+    border-radius: 8px;
+}
+.dash_product .category_detail img{
+    width: 20px;
+}
+
+
+/* manage orders */
+
+.order{
+    /* background-color: rgba(5, 63, 92, 1); */
+    background-color: rgba(0, 0, 0, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    line-height: 40px;
+}
+.order_content{
+    width: 90%;
+    height: 80%;
+    /* padding: 25px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin:  20px 0 0 50px;
+    /* align-items: center; */
+    background-color: white;
+    border-radius: 5px;
+}
+.order_content p{
+    font-size: 15px;
+}
+.order_content input{
+    width: 360px;
+    margin: 10px 10px 15px 0;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+.order_content .order_input input{
+    border:  1px solid rgba(0, 0, 0, 0.06);
+    padding: 15px 25px;
+}
+.order_content button{
+    padding: 15px 50px;
+    background-color: rgba(247, 173, 25, 1);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.order_content .sec{
+    margin: 80px 0 0 150px;
+}
+.order_content .order_input{
+    display: flex;
+}
+.order_content .order_input div:nth-child(2){
+    background-color: rgba(0, 0, 0, 0.04);
+    width: 200px;
+    height: 45px;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.06);
+    margin-top: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.order_content .order_input div:nth-child(2) img{
+    width: 30px;
+    margin-right: 10px;
+}
+.order_content h1{
+    margin-top: -35px;
+}

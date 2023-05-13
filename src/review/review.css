@@ -1,0 +1,107 @@
+.review_line {
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.review_line .line1 {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 690px;
+    height: 3px;
+}
+
+.review_line .line2 {
+    background-color: rgba(247, 173, 25, 1);
+    height: 3px;
+    width: 400px;
+}
+
+.review_line .line3 {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 3px;
+    width: 100%;
+}
+
+.spec_heading h3 {
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.review {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.review_img {
+    display: flex;
+    /* margin: 10px; */
+}
+
+.review_img .reviewer_name {
+    margin:5px 20px;
+}
+
+.review_img p {
+    margin-top: 10px;
+    font-size: large;
+}
+
+.review_txt {
+    width: 90%;
+    margin-left: 90px;
+}
+.add_line{
+    display: flex;
+    width: 80%;
+    height: 3px;
+    margin: 10px auto;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.review_heading p{
+    margin-left: 135px;
+}
+.name_mail{
+    width: 80%;
+    display: flex;
+    margin: 10px auto;
+}
+.name_mail input{
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 40px;
+    margin-top: 10px;
+}
+.name_mail .name{
+    width: 40%;
+    margin-right: 150px;
+}
+.name_mail .mail{
+    width: 40%;
+}
+.write_review{
+    width: 80%;
+    /* display: flex; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.write_review input{
+    width: 100%;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px ;
+    margin-top: 10px;
+}
+.review_btn{
+    width: 80%;
+    margin: 40px auto 0 auto;
+}
+.review_btn button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(247, 173, 25, 1);
+    color: white;
+}

@@ -1,0 +1,85 @@
+.checkout {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content1 {
+    width: 57%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.content1 table {
+    width: 700px;
+    height: 300px;
+}
+
+.content1 td,
+th {
+    text-align: left;
+}
+
+.content1 th {
+    padding: 5px 10px;
+    background-color: rgba(243, 243, 243, 1);
+}
+
+.content1 td {
+    padding: 5px 10px;
+}
+
+.content2 {
+    width: 40%;
+    padding-left: 50px;
+}
+
+.content2 select {
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin: 20px 0 0px 10px;
+    background-color: transparent;
+}
+
+.content2 .one div {
+    padding-bottom: 2px 0;
+}
+
+.content2 .one {
+    margin-bottom: 20px;
+}
+
+.content2 .two div {
+    margin: 20px 50px;
+    line-height: 15px;
+    border-bottom: 1px solid black;
+}
+
+.one .two {
+    background-color: rgba(243, 243, 243, 1);
+    border-radius: 5px;
+    padding: 10px;
+}
+.payment{
+    width: 80%;
+    margin: 20px auto 10px auto;
+}
+.payment input{
+    margin-right: 10px;
+}
+.payment .txt{
+    width: 55%;
+    line-height: 20px;
+    font-size: 11px;
+}
+.payment button{
+    padding: 10px 30px;
+    margin:  10px 0 80px 0;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgba(247, 173, 25, 1);
+}

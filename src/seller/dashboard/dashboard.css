@@ -1,0 +1,90 @@
+.dashboard{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.dashboard .left{
+    background-color: rgba(5, 63, 92, 0.03);
+    width: 25%;
+}
+.dashboard .left .logo{
+    margin-top: 20px;
+}
+.dashboard .dashboard_content{
+    margin: 20px 25px;
+}
+.dashboard_content div{
+    margin-bottom: 5px;
+    padding: 5px;
+    display: flex;
+}
+.dashboard_content div img{
+    display: flex;
+   justify-content: center;
+}
+.dashboard_content .ages{
+    margin-top: 5px;
+}
+.dashboard .right{
+    width: 80%;
+    /* background-color: powderblue; */
+}
+.right .dash_product{
+    margin: 77px 0 0 50px;
+}
+.right .dash_product h4{
+    margin: 10px 0 10px 0;
+}
+.dashboard .right .login_photo {
+   display: flex;
+   margin: 10px 0 15px 0;
+   justify-content: flex-end;
+   border-bottom: 1px solid black;
+   width: 100%;
+}
+.dashboard .right .login_photo select{
+    border: none;
+    background-color: transparent;
+ }
+
+.dashboard .right .login_photo img{
+    width: 25px;
+}
+.dashboard .right .dash{
+    width: 50%;
+    display: flex;
+}
+.dashboard .right .dash .line1{
+    width: 35%;
+    height: 3px;
+    background-color: rgba(247, 173, 25, 1);
+}
+.dashboard .right .dash .line2{
+    width: 30%;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.right .actions{
+    display: flex;
+    margin-right: 80px;
+    border-radius: 5px;
+    /* background-color: yellow; */
+    border:1px solid rgba(0, 0, 0, 0.04);
+    padding: 5px 190px 5px 5px;
+}
+.right .actions img{
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.right .product_actions{
+    display: flex;
+}
+.actions .one{
+    background-color: rgba(217, 81, 44, 0.1);
+}
+.actions .two{
+    background-color: rgba(85, 178, 67, 0.1);
+}
+

@@ -1,0 +1,55 @@
+.guestcheck_out{
+    width: 80%;
+    margin: 10px auto 30px auto;
+}
+.guestcheck_out .billing_detail{
+    display: flex;
+    width: 103%;
+}
+.billing_detail .detail{
+    width: 34%;
+}
+.billing_detail .detail input{
+    width: 335px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.address{
+    width: 80%;
+    margin: 0px auto 40px auto;
+}
+.address input{
+    width: 40%;
+    height: 150px;
+    border-radius: 5px;
+    border:  1px solid rgba(0, 0, 0, 0.15);
+}
+.checkbox {
+    width: 80%;
+    margin: 20px auto 90px auto;
+}
+.checkbox input{
+    margin: 0 10px 20px 0;
+}
+.checkbox button{
+    background-color: rgba(247, 173, 25, 1);
+    color: white;
+    padding: 10px 30px;
+    border:  none;
+    border-radius: 10px;
+}
+.checkout_line{
+    display: flex;
+    margin: 10px auto;
+    width: 80%;
+    height: 3px;
+}
+.checkout_line .line1{
+    width: 10%;
+    background-color:  rgba(247, 173, 25, 1); 
+}
+.checkout_line .line2{
+    width: 90%;
+    background-color:  rgba(0, 0, 0, 0.15); 
+}

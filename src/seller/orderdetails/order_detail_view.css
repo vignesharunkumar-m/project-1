@@ -1,0 +1,92 @@
+.add_product .order_detail{
+    display: flex;
+}
+.add_product .order_add{
+    margin: 15px 15px 15px 0;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    width: 32%;
+    padding: 20px;
+    font-size: 13px;
+    line-height: 18px;
+    border-radius: 8px;
+}
+.add_product .bill_ship{
+    display: flex;
+}
+.add_product .address_line{
+    width: 40%;
+    display: flex;
+    margin: 10px 0 10px 0;
+}
+.add_product .address_line .line1{
+    width: 20%;
+    background-color: rgba(247, 173, 25, 1);
+    height: 3px;
+}
+.add_product .address_line .line2{
+    width: 30%;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.add_product .order_detail div span:nth-child(1){
+    font-weight: bold;
+    margin-left: 15px;
+}
+.add_product .order_detail div span:nth-child(2){
+    margin-right: 15px;
+}
+.add_product .order_detail div:nth-child(2){
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.add_product .order_detail select{
+    padding: 5px 10px;
+    border: 2px solid ;
+    border: none;
+    background-color: transparent;
+}
+.add_product .order_detail .select{
+    /* padding: 5px; */
+    border-radius: 5px;
+    border: 2px solid  rgba(0, 0, 0, 0.05);
+}
+.add_product .order_detail div {
+    margin: 10px 25px 0 0;
+    /* border-right: 2px solid black; */
+}
+.add_product .add_table th,td{
+    border:  none !important;
+}
+.add_product .add_table table td:nth-child(1){
+    font-weight: bold;
+}
+.add_product .order_table{
+    width: 100%;
+    line-height: 40px;
+}
+ .order_table table th{
+    /* width: 100px; */
+    text-align: center;
+    background-color: rgba(5, 63, 92, 1);
+    color: white;
+}
+.order_table table{
+    width: 100%;
+    text-align: center;
+}
+.order_table table td{
+    width: 150px;
+    text-align: center;
+    font-size: 13px;
+}
+.add_product .order_total{
+    width: 70%;
+    margin: 20px 0 50px 0;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.order_total div:nth-child(3) span:nth-child(2){
+    color: red;
+}

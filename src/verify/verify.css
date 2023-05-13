@@ -1,0 +1,25 @@
+.verify_sec{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 50%;
+    background-color: #F7F7F7;
+    margin-bottom: 8%;
+}
+.verify_sec img{
+    width: 100%;
+}
+.verify_sec .verify_left{
+    width: 50%;
+    /* height: 100%; */
+    padding:5% 5% 10% 5%;
+}
+.verify_sec .verify_right{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.verify_right .txt{
+    opacity: 0.5;
+}

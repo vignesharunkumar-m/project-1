@@ -1,0 +1,149 @@
+.specification{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.specification .viewimg{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border:  1px solid rgba(0, 0, 0, 0.15);
+   border-radius: 5px;
+   width: 50%;
+    background-color: transparent;
+    margin-right: 100px;
+}
+.specification img{
+    width: 70%;
+}
+.img_rightTxt{
+    width: 40%;
+}
+.customer_review{
+    display: flex;
+}
+.price{
+    color: rgba(236, 21, 21, 1);
+}
+.split_span{
+    display: flex;
+    justify-content: space-between;
+}
+.img_rightTxt ul{
+    list-style-type: square;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+}
+.span_tags{
+    line-height: 40px;
+}
+.specification2{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.preview_img{
+    display: flex;
+    background-color: transparent;
+}
+.preview_img img{
+    border:  1px solid rgba(0, 0, 0, 0.15);
+    width: 174px;
+    height: 150px;
+    margin:10px 10px 0 0 ;
+    border-radius: 5px;
+}
+.btn{
+    display: flex;
+    width: 40%;
+    height: 50px;
+    margin-left: 100px;
+}
+.btn button{
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    border: none;
+}
+.btn1{
+    border: 1px solid rgba(247, 173, 25, 1);
+    padding: 5px 5px 0 5px; 
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.btn1 button{
+    background-color: rgba(247, 173, 25, 1);
+    color: white;
+}
+.btn2{
+    margin-right: 30px;
+}
+.btn1 span{
+    padding: 0 15px 0 15px;
+}
+.cart img{
+    width: 20px;
+    padding-right: 10px ;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(66, 158, 189, 1);
+    color: white;
+}
+.btn2 button{
+    padding: 15px 20px 15px 20px;
+}
+.btn3 button{
+    padding: 17px 20px 17px 20px;
+    background-color: rgba(247, 173, 25, 1);
+    color: white;
+}
+.spec_heading{
+    display: flex;
+}
+.spec_heading h1{
+    margin: 10px 0 10px 0;
+    padding: 0 20px 0 130px;
+}
+.head_line{
+    display: flex;
+    width: 80%;
+    margin: auto auto;
+}
+.head_line .lineyellow{
+    background-color: #F27F0C;
+    width: 300px;
+    height: 3px;
+}
+.head_line .linegrey{
+    background-color: rgba(0, 0, 0, 0.3);;
+    height: 3px;
+    width: 100%;
+}
+.txt_left_right{
+    display: flex;
+    justify-content: space-between;
+}
+.spec_conatiner{
+    width: 80%;
+    margin: 20px auto;
+}
+.spec_conatiner div:nth-child(even){
+    background-color: powderblue;
+    border-radius: 10px;
+}
+.txt_left_right h5{
+    padding: 20px 15px;
+}
+.txt_left_right h5{
+    display: flex;
+    justify-content: flex-end;
+}

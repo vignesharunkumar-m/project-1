@@ -1,0 +1,107 @@
+.about_img{
+    background-image: url("../images/unsplash_NFvdKIhxYlU.png");
+    display: flex;
+    width: 80%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    position: relative;
+} 
+.about_img .image_over_txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.about_img .image_over_txt span{
+    padding-right: 1px;
+}
+.about_img .image_over_txt div{
+    padding-right: 5px;
+}
+.about_img .image_over_txt h1{
+    padding-left: 13px;
+}
+.about_img p{
+    margin-left: 35px;
+}
+.about_conetent{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about_heading{
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+}
+.about_line{
+    display: flex;
+    margin: 10px auto;
+    width: 80%;
+}
+.about_line .line1{
+    width: 12%;
+    height: 3px;
+    background-color: rgba(247, 173, 25, 1);
+}
+.about_line .line2{
+    width: 45%;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.about_conetent .txt{
+    width: 60%;
+    margin-right: 50px;
+    line-height: 25px;
+}
+.about_conetent img{
+    width: 390px;
+    height: 380px;
+}
+ .team_line{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.team_line .line1{
+    width: 12%;
+    height: 3px;
+    background-color: rgba(247, 173, 25, 1);
+}
+.team_line .line2{
+    width: 100%;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.teams{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+.teams .teams_details{
+    width: 360px;
+    padding: 10px;
+    margin: 40px 0px 100px 0;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.teams_details h3{
+    margin: 10px 0 10px 0;
+}
+.teams #one{
+    margin-right: 20px;
+}
+.teams_details img{
+    width: 325px;
+}
+.detail_line{
+    width: 100%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    margin: 10px 0;
+}

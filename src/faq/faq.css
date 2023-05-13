@@ -1,0 +1,54 @@
+.faq_img{
+    background-image: url("../images/unsplash_NFvdKIhxYlU(2).png");
+    display: flex;
+    width: 80%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    position: relative;
+} 
+.faq_img .image_over_txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.faq_img .image_over_txt span{
+    padding-right: 1px;
+}
+.faq_img .image_over_txt div{
+    padding-right: 5px;
+}
+.faq_img .image_over_txt h1{
+    padding-left: 45px;
+}
+.faq_img p{
+    margin-left: 35px;
+}
+.terms_condition{
+    width: 80%;
+    margin: 20px auto 90px auto;
+}
+.faq_content{
+    display: flex;
+    width: 80%;
+    margin: 20px auto 90px auto;
+}
+.faq_content img{
+    width: 450px;
+    height: 310px;
+    border-radius: 2px;
+}
+.faq_content .txt{
+    width: 54%;
+    margin-right: 50px;
+    line-height: 25px;
+}
+.faq_content select{
+    width: 600px;
+    padding: 15px 0 15px 20px;
+    margin-bottom: 20px;
+    border: none;
+}
